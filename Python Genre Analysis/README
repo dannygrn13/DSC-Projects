@@ -1,0 +1,45 @@
+Python Genre Analysis
+
+Date: April 3, 2024
+
+Overview
+- This project conducts an in-depth analysis of Spotify track genres using Python. By leveraging various datasets, including Spotify's Web API, 
+  the project aims to provide insights into genre popularity and correlations between audio features.
+
+Data Summary
+- The dataset (train.csv) contains information about Spotify tracks, including 125 genres. It has been compiled and cleaned using Spotify's Web 
+  API and Python, presented in a CSV format. The dataset includes columns providing details about each track, such as artists, album name, 
+  track name, popularity, duration, and explicit content. Additionally, audio features like danceability, energy, key, loudness, mode, 
+  speechiness, etc., are included.
+
+Questions Explored
+- Popularity distribution across genres
+- Correlation between audio features
+
+Methodology
+- Data Import: The dataset is read into a pandas DataFrame.
+- Visualization: Various visualizations are created to explore the data:
+  - Graphs displaying popularity distribution across genres.
+  - Correlation matrix for audio features.
+  - Boxplot comparing danceability across top genres.
+
+Visualizations
+- Popularity Distribution Across Genres:
+  - Graph displaying all genres based on popularity.
+  - Top 30 genres by popularity.
+  - Bottom 10 genres by popularity.
+- Correlation Matrix of Audio Features:
+  - Visualization showing the correlation between various audio features.
+Boxplot of Danceability Across Top Genres:
+  - Comparison of danceability across the top 5 genres by popularity.
+
+Key Findings
+- Pop-film and K-pop are the top genres in popularity.
+- Classical music appears among the lowest 10 genres, contrary to expectations.
+- Energy and loudness exhibit a high correlation, indicating that energetic tracks tend to be louder.
+- Danceability shows a low correlation with energy and loudness, suggesting that high energy and loudness do not necessarily equate to high 
+  danceability.
+
+Conclusion
+- This analysis provides valuable insights into genre popularity and the relationship between audio features in Spotify tracks. By leveraging 
+  Python and visualizations, the project contributes to a better understanding of genre trends and music preferences.
