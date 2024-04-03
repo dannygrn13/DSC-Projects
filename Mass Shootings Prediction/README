@@ -1,0 +1,63 @@
+Mass Shootings Predictions
+
+Date: April 3, 2024
+
+Introduction
+
+Problem Statement
+- Mass shootings are a pressing issue in America, prompting concerns about their frequency and underlying causes. This project investigates 
+  whether there is a correlation between the political party in power within a state and the occurrence of mass shootings.
+
+Importance of the Problem
+- The prevalence of mass shootings underscores the urgency of understanding their contributing factors. By identifying potential correlations
+  with political affiliation, this study aims to inform evidence-based policy interventions to mitigate mass shootings.
+
+Target Audience
+- This project is relevant to the general public, advocacy groups, policymakers, and individuals concerned about gun violence and public 
+  safety.
+
+Data Sources
+
+Data Used
+- The dataset for this analysis was sourced from the Gun Violence Archive, providing comprehensive records of mass shootings in each state 
+  since 2014. Additionally, data from the 2012, 2016, and 2020 presidential elections were utilized to determine the political party of each 
+  state at the time of the mass shooting incident.
+
+Utility of the Data
+- The dataset offers valuable insights into the frequency, location, and characteristics of mass shootings across different states. Analyzing 
+  this data can help identify patterns and trends related to mass shooting incidents and their potential correlation with political factors.
+
+Methods/Results
+
+Data Exploration
+- Exploratory data analysis involved visualizations such as correlation matrices, line graphs, and bar charts to understand relationships 
+  within the data.
+
+Data Preparation
+- Preprocessing steps included converting date columns, extracting relevant features, and merging political party data with mass shooting 
+  records. New variables, such as total victims involved and total suspects involved, were created for further analysis.
+
+Modeling Approach
+- Logistic regression was employed to model the relationship between political party affiliation and mass shooting occurrence. Evaluation
+  metrics such as accuracy, precision, recall, and F1-score were used to assess the model's performance.
+
+Results
+- The analysis revealed no significant correlation between the political party in power and the incidence of mass shootings. Despite efforts 
+  to account for various factors, the logistic regression model achieved an accuracy score of only 49%, indicating limited predictive 
+  capability.
+
+Conclusion
+- Key findings suggest that political party affiliation alone may not reliably predict mass shooting occurrences. Further research 
+  incorporating additional factors such as state gun laws, demographics, and socio-economic indicators is warranted to enhance predictive 
+  accuracy. Recommendations include prioritizing fairness, transparency, and accountability throughout the project lifecycle to address 
+  ethical concerns and ensure responsible data-driven decision-making.
+
+Works Cited
+- 2012 Presidential Election Interactive Map. (2012). Retrieved from 270 To Win: Link (https://www.270towin.com/2012_Election/interactive_map)
+- 2016 Presidential Election Results. (2016, December 13). Retrieved from Politico: Link (https://www.politico.com/2016-election/results/map/president/)
+- MASS SHOOTINGS. (n.d.). Retrieved from Gun Violence Archive: Link (https://www.gunviolencearchive.org/)
+- PRESIDENTIAL RESULTS. (2020). Retrieved from CNN Politics: Link (https://www.cnn.com/election/2020/results/president)
+
+
+
+
