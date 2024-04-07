@@ -12,33 +12,33 @@ Contents
 - Data Analysis and Visualization
 - Conclusion
 
-Introduction
+Introduction:
 Heart disease is a leading cause of mortality worldwide, and early prediction of heart attack risk can significantly improve prevention and treatment strategies.
 This project aims to develop machine learning models that can predict the risk of heart attacks based on various factors such as age, gender, lifestyle habits, 
 and health parameters.
 
-Data
+Data:
 The dataset used in this project contains information about individuals' demographic details, lifestyle habits, health parameters, and heart attack risk. It 
 includes features such as age, gender, cholesterol levels, blood pressure, smoking habits, physical activity, diet, family history of heart problems, stress 
 levels, and more.
 
-Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA):
 EDA involves analyzing the dataset to understand its structure, distribution, and relationships between variables. This includes visualizing histograms, 
 correlation matrices, and exploring patterns and trends in the data.
 
-Feature Engineering
+Feature Engineering:
 Feature engineering involves transforming raw data into meaningful features that can improve model performance. This includes encoding categorical variables, 
 creating new features, and preprocessing data for modeling.
 
-Model Selection and Evaluation
+Model Selection and Evaluation:
 Model selection involves choosing appropriate machine learning algorithms for predicting heart attack risk. In this project, logistic regression, decision trees,
 and random forests are evaluated. Model evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC are used to assess model performance.
 
-Data Analysis and Visualization
+Data Analysis and Visualization:
 Data analysis and visualization provide insights into the relationships between different variables and their impact on heart attack risk. Various visualizations
 such as histograms, box plots, bar plots, and violin plots are used to explore these relationships and identify patterns in the data.
 
-Conclusion
+Conclusion:
 This project demonstrates the use of machine learning techniques for predicting heart attack risk based on demographic, lifestyle, and health-related factors. By leveraging data analysis, feature engineering, and model evaluation, it provides valuable insights for understanding and predicting heart disease, ultimately contributing to improved healthcare outcomes.
 
 
