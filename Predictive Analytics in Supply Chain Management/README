@@ -1,0 +1,95 @@
+Predictive Analytics for Better Delivery in Supply Chain Management
+Author: Daniel Salazar
+Institution: Bellevue University
+Course: DSC 680 – Applied Data Science
+Date: 4/27/2024
+
+Table of Contents
+- Business Problem
+- Background/History
+- Data Explanation
+- Key Points from Data Analysis
+- Methods
+- Analysis
+- Conclusion
+- Assumptions
+- Limitations
+- Challenges
+- Future Uses
+- Recommendations
+- Implementation Plan
+- Ethical Assessment
+- Questions
+- Works Cited
+- Appendix
+
+Business Problem
+In supply chain management, delivering products on time is crucial for keeping customers happy and running a smooth operation. Late deliveries can upset customers and hurt a company's reputation. So, this project aims to create a tool that predicts when deliveries might be late, helping businesses fix issues before they happen.
+
+Background/History
+This project uses a dataset called "DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS." It contains lots of information about the supply chain, like who's buying what and when things get delivered. We're building on past research to make delivery predictions better.
+
+Data Explanation
+We're mainly using a file called "DataCoSupplyChainDataset.csv" for this project. It has details about transactions, customers, products, and delivery status. We might also add data about where customers are and what the weather's like to make our predictions even better.
+
+Key Points from Data Analysis
+- Benefit_per_order: Some orders actually lose money, so we need to figure out why.
+- Late_delivery_risk: About 55% of orders are at risk of being late, which could upset customers.
+- Days_for_shipping_(real) and Days_for_shipment(scheduled): Stuff usually takes longer to ship than planned, causing delays.
+- Sales_per_customer: Customers spend different amounts of money, so we need to understand their buying habits.
+- Distribution of Delivery Times Across Shipping Modes: Some shipping methods are more reliable than others.
+
+Methods
+We're using fancy math stuff to build a tool that predicts if deliveries will be late. We're looking at past data to teach our tool how to make these predictions.
+
+Analysis
+We made some models and tested them using our data. One model was pretty good at spotting late deliveries, but it sometimes made mistakes. Other models were perfect in tests, but they might be too good to be true.
+
+Conclusion
+Our project shows that predicting delivery times can be helpful for businesses. But we need to be careful with our predictions because sometimes they're not perfect. Still, having this tool can make businesses run smoother and keep customers happy.
+
+Assumptions
+We're assuming the data we have is accurate and that past delivery patterns can help us predict the future. But things like bad weather or other unexpected events might mess up our predictions.
+
+Limitations
+Our predictions might not always be right because our data might be missing important info. Also, we need to be careful with people's privacy and make sure we're following the rules about using their data.
+
+Challenges
+It's tricky to make sure our predictions are good enough without being too good. Also, understanding why our models make certain predictions can be tough.
+
+Future Uses
+Our tool could be used for more than just deliveries. It could help with things like managing inventory or figuring out what customers might want to buy next.
+
+Recommendations
+Businesses should keep an eye on delivery times and use our tool to fix any problems before they happen. They should also train their staff to use the tool and invest in good technology to support it.
+
+Implementation Plan
+We'll need to collect more data, keep improving our models, and make sure everyone in the business knows how to use our tool.
+
+Ethical Assessment
+We need to make sure we're being fair with our predictions and not accidentally treating some customers better than others. We also need to make sure we're following the rules about using people's data.
+
+Questions
+- How long does it usually take for deliveries to arrive using different shipping methods?
+- Do deliveries tend to be late more often at certain times of the year?
+- Are there any places where deliveries are often late?
+- Does it matter what kind of customer orders something when it comes to delivery times?
+- Do certain types of products tend to be delivered late more often?
+- Does how much someone spends affect if their delivery will be late?
+- Are deliveries getting better or worse over time?
+- Are there specific places where late deliveries happen more often?
+- Does how much a department sells affect how often their deliveries are late?
+- Does offering discounts or promotions affect delivery times?
+
+Works Cited
+Pereira, A., Silva, F., & Constante, F. (2019, March 12). DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS. Retrieved from Mendeley Data: Link
+
+Appendix
+Appendix A: Data Dictionary
+Appendix B: Label Encoded Values
+Appendix A: Data Dictionary
+This part explains what each piece of information in our dataset means.
+
+Appendix B: Label Encoded Values
+This part shows how we turned words into numbers to help our tool understand the data better.
+
