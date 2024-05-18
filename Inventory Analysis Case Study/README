@@ -1,1 +1,103 @@
-To be added later
+Optimizing Inventory Management for XYZ Company
+Author: Daniel Salazar
+Affiliation: Bellevue University
+Course: DSC 680 – Applied Data Science
+Date: 5/13/2024
+
+Table of Contents
+- Business Problem
+- Background/History
+- Data Explanation
+- Methods
+- Analysis
+- Sales Analysis
+- Purchasing Analysis
+- Optimal Inventory Level Determination
+- ABC Analysis
+- Conclusion
+- Assumptions
+- Limitations
+- Challenges
+- Future Uses/Additional Applications
+- Recommendations
+- Implementation Plan
+- Ethical Assessment
+- 10 Questions
+- Works Cited
+
+Business Problem
+- XYZ Company faces challenges in inventory management and sales analysis, requiring optimization of inventory levels, identification of top-selling products, analysis of purchasing patterns, and efficient supply chain 
+management to meet customer demands while minimizing costs.
+
+Background/History
+- The company operates in the beverage industry, where inventory turnover and sales performance are crucial for profitability and customer satisfaction. Traditional inventory management methods were inefficient, prompting 
+the adoption of analytics to improve decision-making.
+
+Data Explanation
+- The analysis is based on four datasets containing sales and purchasing information such as product details, vendor specifics, quantities, prices, and transaction dates. Data preprocessing involved thorough cleaning, 
+merging, and aggregating to extract meaningful insights.
+
+Methods
+- Analytical techniques included descriptive statistics, data visualization, and mathematical modeling to identify trends, patterns, and relationships.
+
+Analysis
+- Sales Analysis
+  - Dominance of popular brands like Smirnoff and Captain Morgan.
+  - High sales for flavored vodkas and innovative products.
+  - Sales peaked around January 27th, stabilized thereafter.
+- Purchasing Analysis
+  - Top vendors such as DIAGEO and JIM BEAM identified.
+  - Average supply duration: 7.62 days.
+  - Average payment duration: 35.66 days.
+  - Optimal Inventory Level Determination
+  - Calculations based on sales velocity and lead time.
+  - Identification of products with inconsistent sales and stock levels.
+- ABC Analysis
+  - Classification of inventory items into categories based on importance.
+  - Category A: Highly critical items.
+  - Category B: Moderate importance.
+  - Category C: Lowest annual usage value.
+
+Conclusion
+- The analysis provided valuable insights into inventory management and sales strategies, aiding decision-making and operational efficiency. Data analytics equipped the company with actionable insights to improve inventory 
+practices, strengthen supplier relationships, and enhance profitability.
+
+Assumptions
+- Assumed accuracy and reliability of data.
+- Sales and purchasing data provide a representative sample of overall operations.
+
+Limitations
+- Limited historical data (two years).
+- External influences not explicitly factored in.
+
+Challenges
+- Addressing missing or inconsistent data values.
+- Future Uses/Additional Applications
+- Integration of real-time data and predictive analytics.
+- Use of machine learning algorithms for sales forecasting.
+
+Recommendations
+- Prioritize inventory items effectively using ABC analysis.
+- Strengthen relationships with top vendors.
+- Promote top-selling products through targeted marketing.
+- Implement predictive analytics for proactive inventory management.
+
+Implementation Plan
+- Set up a robust data infrastructure and analytics platform.
+- Provide comprehensive training programs to improve data literacy.
+- Create a culture of data-driven decision-making.
+
+Ethical Assessment
+- Focus on maintaining data privacy and security. 
+- Ensure responsible marketing practices.
+
+10 Questions
+
+Works Cited
+Biswas, B. (n.d.). Retrieved from Kaggle: https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study/data
+
+
+
+
+
+
